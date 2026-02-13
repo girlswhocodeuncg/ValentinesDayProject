@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Valentine Letter</title>
+</head>
+<body>
+    <!--Envelope Screen-->
+    <div id="envelope-container">
+        <img src="assets/envelope.png" alt="Envelope" id="envelope"/>
+        <p>Letter for you <33</p>
+    </div>
+
+    <!--Letter Screen-->
+    <div id="letter-container">
+        <div class="letter-window">
+            <h1 id="letter-title">Will you be my Valentine?</h1>
+
+            <img src="assets/heart_pixelart.png" class="heart" id="heart">
+
+            <div class="buttons" id="letter-buttons">
+                <img src="assets/yes.png" class="btn yes-btn" alt="Yes"/>
+
+                <div class="no-wrapper">
+                    <img src="assets/no.png" class="btn no-btn" alt="No"/>
+                </div>
+
+                <p id="final-text" class="final-text" style="display: none">
+                    <strong> Let's hang out soon :)</strong>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
